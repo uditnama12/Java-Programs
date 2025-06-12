@@ -17,7 +17,7 @@ public class UserInput {
        System.out.println(" Please enter your PF Amunt: ");
         int b = input.nextInt();
         
-         int c = a-b;
+        int c = a-b;
         System.out.println("Your actual salary is : " + c);
 
         System.out.println(" Please enter your ESIC amount : ");
