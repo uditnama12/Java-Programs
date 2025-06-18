@@ -7,8 +7,11 @@ public class Parameter {
     }
     
     public static void main(String[] args) {
-        int num = add(8,10);  //when we pass actual value, then it is call argument
-        System.out.println("Sum of two numbers is: " + num);
+         int num = add(8,10);  //when we pass actual value, then it is call argument
+         System.out.println("Sum of two numbers is: " + num);
+        System.out.println(add(50,90));
+        System.out.println(add(100,200));
+        System.out.println(add(-1000,2000));
     }
 
     

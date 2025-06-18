@@ -14,7 +14,7 @@ public class Return {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter a number: ");
         int number = input.nextInt();
-        return number;
+        return number; 
 
         
     } 
