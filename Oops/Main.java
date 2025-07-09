@@ -3,6 +3,7 @@
     
     String color;
     int speed;
+    String carname = "BMW";
 
      void accelerate(int increase){
         speed = speed + increase;
@@ -15,9 +16,10 @@
 public class Main{
     public static void main(String[] args) {
         
-        Car mycar = new Car();
-        mycar.color = "Red";
+        Car mycar = new Car(); //declaration of object
+        mycar.color = "Red"; //
         mycar.speed = 90;
+    
 
         mycar.accelerate(120);
 
